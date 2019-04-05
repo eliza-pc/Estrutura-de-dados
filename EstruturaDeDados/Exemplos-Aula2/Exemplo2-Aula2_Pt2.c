@@ -15,3 +15,15 @@ int soma_dobro(int a,int b)
     
     return 0;
 }
+int main()
+{
+    int x,y,res;
+    printf("Digite o primeiro número:");
+    scanf("%d",&x);
+    printf("Digite o segundo número:");
+    scanf("%d",&y);
+    
+    res = soma_dobro(x,y);
+    printf("\n A soma do dobro dos números eh:%d",res);
+    
+}
