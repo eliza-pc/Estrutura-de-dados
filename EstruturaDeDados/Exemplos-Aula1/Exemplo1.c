@@ -9,7 +9,18 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+  
+    int idade;
     return 0;
+   
+    printf("Informe a sua idade: \n");
+    scanf("%d",&idade);
+    
+    if (idade >= 18) {
+        
+        printf("Você é um adulto!");
+        
+    }
+    
 }
+
